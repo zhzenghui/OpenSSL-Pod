@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.homepage        = "https://github.com/FredericJacobs/OpenSSL-Pod"
   s.license         = 'BSD-style Open Source'
-  s.source          = { :http => "https://openssl.org/source/openssl-1.0.2e.tar.gz", :sha1 => "2c5691496761cb18f98476eefa4d35c835448fb6"}
+  s.source          = { :http => "http://openssl.org/source/openssl-1.0.2e.tar.gz", :sha1 => "2c5691496761cb18f98476eefa4d35c835448fb6"}
   s.source_files    = "opensslIncludes/openssl/*.h"
   s.header_dir      = "openssl"
   s.license	        = { :type => 'OpenSSL (OpenSSL/SSLeay)', :file => 'LICENSE' }
